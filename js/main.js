@@ -10,7 +10,7 @@ Para probar están activadas todas las cards, en 1!
 */
 let cargar = 1;
 
-if (cargar == 2) {
+if (cargar == 1) {
 
 /* 1 */
 
@@ -18,7 +18,7 @@ const agregaProducto = document.createElement('div');
 
 agregaProducto.innerHTML =  ` <div class="item">
 <div class="titulo-item">Perro Callejero - Malbec</div>
-<div class="box-imagen"> <img src="/imagenes/1.png" alt="" class="img-item"> </div>
+<div class="box-imagen"> <img src="./imagenes/1.png" alt="" class="img-item"> </div>
 <div class="precio-item"> $6.240 </div>
 <button class="boton-item">Agregar al Carrito</button>
 </div> `;
@@ -34,7 +34,7 @@ const agregaProducto2 = document.createElement('div');
 
 agregaProducto2.innerHTML =  ` <div class="item">
 <div class="titulo-item">Killka - Malbec</div>
-<div class="box-imagen"> <img src="/imagenes/2.png" alt="" class="img-item"> </div>
+<div class="box-imagen"> <img src="./imagenes/2.png" alt="" class="img-item"> </div>
 <div class="precio-item"> $5.220 </div>
 <button class="boton-item">Agregar al Carrito</button>
 </div> `;
@@ -50,7 +50,7 @@ const agregaProducto3 = document.createElement('div');
 
 agregaProducto3.innerHTML = ` <div class="item">
 <div class="titulo-item">Santa Julia - Malbec</div>
-<div class="box-imagen"> <img src="/imagenes/3.png" alt="" class="img-item"> </div>
+<div class="box-imagen"> <img src="./imagenes/3.png" alt="" class="img-item"> </div>
 <div class="precio-item"> $2.850  </div>
 <button class="boton-item">Agregar al Carrito</button>
 </div>`;
@@ -66,7 +66,7 @@ const agregaProducto4 = document.createElement('div');
 
 agregaProducto4.innerHTML = `<div class="item">
 <div class="titulo-item">La Linda - Malbec</div>
-<div class="box-imagen"> <img src="/imagenes/4.png" alt="" class="img-item"> </div>
+<div class="box-imagen"> <img src="./imagenes/4.png" alt="" class="img-item"> </div>
 <div class="precio-item"> $6.200 </div>
 <button class="boton-item">Agregar al Carrito</button>
 </div> `;
@@ -82,7 +82,7 @@ const agregaProducto5 = document.createElement('div');
 
 agregaProducto5.innerHTML = `<div class="item">
 <div class="titulo-item">Escorihuela Gascón - Malbec</div>
-<div class="box-imagen"> <img src="/imagenes/5.png" alt="" class="img-item"> </div>
+<div class="box-imagen"> <img src="./imagenes/5.png" alt="" class="img-item"> </div>
 <div class="precio-item"> $7.490 </div>
 <button class="boton-item">Agregar al Carrito</button>
 </div> `;
@@ -98,7 +98,7 @@ const agregaProducto6 = document.createElement('div');
 
 agregaProducto6.innerHTML = `<div class="item">
 <div class="titulo-item"> Luigi Bosca - Malbec  </div>
-<div class="box-imagen"> <img src="/imagenes/6.png" alt="" class="img-item"> </div>
+<div class="box-imagen"> <img src="./imagenes/6.png" alt="" class="img-item"> </div>
 <div class="precio-item"> $9.270 </div>
 <button class="boton-item">Agregar al Carrito</button>
 </div> `;
@@ -114,7 +114,7 @@ const agregaProducto7 = document.createElement('div');
 
 agregaProducto7.innerHTML = `<div class="item">
 <div class="titulo-item"> Trumpeter - Malbec  </div>
-<div class="box-imagen"> <img src="/imagenes/7.png" alt="" class="img-item"> </div>
+<div class="box-imagen"> <img src="./imagenes/7.png" alt="" class="img-item"> </div>
 <div class="precio-item"> $7.800 </div>
 <button class="boton-item">Agregar al Carrito</button>
 </div> `;
@@ -130,7 +130,7 @@ const agregaProducto8 = document.createElement('div');
 
 agregaProducto8.innerHTML = `<div class="item">
 <div class="titulo-item"> Salentein - Reserva Malbec  </div>
-<div class="box-imagen"> <img src="/imagenes/8.png" alt="" class="img-item"> </div>
+<div class="box-imagen"> <img src="./imagenes/8.png" alt="" class="img-item"> </div>
 <div class="precio-item"> $7.390 </div>
 <button class="boton-item">Agregar al Carrito</button>
 </div> `;
@@ -146,7 +146,7 @@ const agregaProducto9 = document.createElement('div');
 
 agregaProducto9.innerHTML = `<div class="item">
 <div class="titulo-item"> Cafayate - Malbec  </div>
-<div class="box-imagen"> <img src="/imagenes/9.png" alt="" class="img-item"> </div>
+<div class="box-imagen"> <img src="./imagenes/9.png" alt="" class="img-item"> </div>
 <div class="precio-item"> $2.590  </div>
 <button class="boton-item">Agregar al Carrito</button>
 </div> `;
@@ -162,7 +162,7 @@ const agregaProducto10 = document.createElement('div');
 
 agregaProducto10.innerHTML = `<div class="item">
 <div class="titulo-item"> Animal - Malbec Organico  </div>
-<div class="box-imagen"> <img src="/imagenes/10.png" alt="" class="img-item"> </div>
+<div class="box-imagen"> <img src="./imagenes/10.png" alt="" class="img-item"> </div>
 <div class="precio-item"> $7.990   </div>
 <button class="boton-item">Agregar al Carrito</button>
 </div>`;
@@ -174,7 +174,7 @@ elementoContenedor10.appendChild(agregaProducto10);
 } 
 
 
-if (cargar == 2) {
+if (cargar == 1) {
 
     /* 11 */
     
@@ -182,7 +182,7 @@ if (cargar == 2) {
     
     agregaProducto11.innerHTML = ` <div class="item">
     <div class="titulo-item"> Latitud 33 - Malbec  </div>
-    <div class="box-imagen"> <img src="/imagenes/11.png" alt="" class="img-item"> </div>
+    <div class="box-imagen"> <img src="./imagenes/11.png" alt="" class="img-item"> </div>
     <div class="precio-item"> $4.240    </div>
     <button class="boton-item">Agregar al Carrito</button>
     </div> `;
@@ -198,7 +198,7 @@ if (cargar == 2) {
     
     agregaProducto12.innerHTML =  ` <div class="item">
     <div class="titulo-item"> Chañarmuyo - Malbec  </div>
-    <div class="box-imagen"> <img src="/imagenes/12.png" alt="" class="img-item"> </div>
+    <div class="box-imagen"> <img src="./imagenes/12.png" alt="" class="img-item"> </div>
     <div class="precio-item"> $8.900   </div>
     <button class="boton-item">Agregar al Carrito</button>
     </div>`;
@@ -214,7 +214,7 @@ if (cargar == 2) {
     
     agregaProducto13.innerHTML = ` <div class="item">
     <div class="titulo-item"> Alta Vista - Estate Premium Malbec  </div>
-    <div class="box-imagen"> <img src="/imagenes/13.png" alt="" class="img-item"> </div>
+    <div class="box-imagen"> <img src="./imagenes/13.png" alt="" class="img-item"> </div>
     <div class="precio-item"> $9.890   </div>
     <button class="boton-item">Agregar al Carrito</button>
     </div>` ;
@@ -230,7 +230,7 @@ if (cargar == 2) {
     
     agregaProducto14.innerHTML =  ` <div class="item">
     <div class="titulo-item"> Saint Felicien - Malbec  </div>
-    <div class="box-imagen"> <img src="/imagenes/14.png" alt="" class="img-item"> </div>
+    <div class="box-imagen"> <img src="./imagenes/14.png" alt="" class="img-item"> </div>
     <div class="precio-item"> $9.390   </div>
     <button class="boton-item">Agregar al Carrito</button>
     </div> ` ;
@@ -246,7 +246,7 @@ if (cargar == 2) {
     
     agregaProducto15.innerHTML = ` <div class="item">
     <div class="titulo-item"> Altos del Plata - Malbec  </div>
-    <div class="box-imagen"> <img src="/imagenes/15.png" alt="" class="img-item"> </div>
+    <div class="box-imagen"> <img src="./imagenes/15.png" alt="" class="img-item"> </div>
     <div class="precio-item"> $4.495    </div>
     <button class="boton-item">Agregar al Carrito</button>
     </div>` ;
@@ -262,7 +262,7 @@ if (cargar == 2) {
     
     agregaProducto16.innerHTML = `<div class="item">
     <div class="titulo-item"> Zuccardi Q - Malbec  </div>
-    <div class="box-imagen"> <img src="/imagenes/16.png" alt="" class="img-item"> </div>
+    <div class="box-imagen"> <img src="./imagenes/16.png" alt="" class="img-item"> </div>
     <div class="precio-item"> $12.800   </div>
     <button class="boton-item">Agregar al Carrito</button>
     </div> `;
@@ -278,7 +278,7 @@ if (cargar == 2) {
     
     agregaProducto17.innerHTML = ` <div class="item">
     <div class="titulo-item"> Rutini - Malbec  </div>
-    <div class="box-imagen"> <img src="/imagenes/17.png" alt="" class="img-item"> </div>
+    <div class="box-imagen"> <img src="./imagenes/17.png" alt="" class="img-item"> </div>
     <div class="precio-item"> $19.990   </div>
     <button class="boton-item">Agregar al Carrito</button>
     </div>`;
@@ -294,7 +294,7 @@ if (cargar == 2) {
     
     agregaProducto18.innerHTML = ` <div class="item">
     <div class="titulo-item"> Padrillos - Malbec  </div>
-    <div class="box-imagen"> <img src="/imagenes/18.png" alt="" class="img-item"> </div>
+    <div class="box-imagen"> <img src="./imagenes/18.png" alt="" class="img-item"> </div>
     <div class="precio-item"> $5.390    </div>
     <button class="boton-item">Agregar al Carrito</button>
     </div> ` ;
@@ -310,7 +310,7 @@ if (cargar == 2) {
     
     agregaProducto19.innerHTML = `<div class="item">
     <div class="titulo-item"> Luigi Bosca De Sangre Malbec Valle de Uco  </div>
-    <div class="box-imagen"> <img src="/imagenes/19.png" alt="" class="img-item"> </div>
+    <div class="box-imagen"> <img src="./imagenes/19.png" alt="" class="img-item"> </div>
     <div class="precio-item"> $14.950    </div>
     <button class="boton-item">Agregar al Carrito</button>
     </div> `;
@@ -326,7 +326,7 @@ if (cargar == 2) {
     
     agregaProducto20.innerHTML = ` <div class="item">
     <div class="titulo-item"> Emilia Dulce Natural Malbec Rosé  </div>
-    <div class="box-imagen"> <img src="/imagenes/20.png" alt="" class="img-item"> </div>
+    <div class="box-imagen"> <img src="./imagenes/20.png" alt="" class="img-item"> </div>
     <div class="precio-item"> $3.990    </div>
     <button class="boton-item">Agregar al Carrito</button>
     </div>`;
@@ -338,7 +338,7 @@ if (cargar == 2) {
 }
 
 
-if (cargar == 3) {
+if (cargar == 1) {
 
         /* 21 */
         
@@ -346,7 +346,7 @@ if (cargar == 3) {
         
         agregaProducto21.innerHTML = ` <div class="item">
         <div class="titulo-item"> La Linda - Chardonnay  </div>
-        <div class="box-imagen"> <img src="/imagenes/21.png" alt="" class="img-item"> </div>
+        <div class="box-imagen"> <img src="./imagenes/21.png" alt="" class="img-item"> </div>
         <div class="precio-item"> $6.200    </div>
         <button class="boton-item">Agregar al Carrito</button>
         </div>`;
@@ -362,7 +362,7 @@ if (cargar == 3) {
         
         agregaProducto22.innerHTML = ` <div class="item">
         <div class="titulo-item"> Luigi Bosca - Chardonnay  </div>
-        <div class="box-imagen"> <img src="/imagenes/22.png" alt="" class="img-item"> </div>
+        <div class="box-imagen"> <img src="./imagenes/22.png" alt="" class="img-item"> </div>
         <div class="precio-item"> $9.280     </div>
         <button class="boton-item">Agregar al Carrito</button>
         </div>`;
@@ -378,7 +378,7 @@ if (cargar == 3) {
         
         agregaProducto23.innerHTML = ` <div class="item">
         <div class="titulo-item"> Cafayate - Chardonnay  </div>
-        <div class="box-imagen"> <img src="/imagenes/23.png" alt="" class="img-item"> </div>
+        <div class="box-imagen"> <img src="./imagenes/23.png" alt="" class="img-item"> </div>
         <div class="precio-item"> $2.590    </div>
         <button class="boton-item">Agregar al Carrito</button>
         </div>` ;
@@ -394,7 +394,7 @@ if (cargar == 3) {
         
         agregaProducto24.innerHTML = ` <div class="item">
         <div class="titulo-item"> Cordero Con Piel De Lobo - Chardonnay  </div>
-        <div class="box-imagen"> <img src="/imagenes/24.png" alt="" class="img-item"> </div>
+        <div class="box-imagen"> <img src="./imagenes/24.png" alt="" class="img-item"> </div>
         <div class="precio-item"> $4.360    </div>
         <button class="boton-item">Agregar al Carrito</button>
         </div>`;
@@ -410,7 +410,7 @@ if (cargar == 3) {
         
         agregaProducto25.innerHTML = `<div class="item">
         <div class="titulo-item"> Salentein Reserva - Chardonnay  </div>
-        <div class="box-imagen"> <img src="/imagenes/25.png" alt="" class="img-item"> </div>
+        <div class="box-imagen"> <img src="./imagenes/25.png" alt="" class="img-item"> </div>
         <div class="precio-item"> $7.390    </div>
         <button class="boton-item">Agregar al Carrito</button>
         </div> `;
@@ -420,13 +420,13 @@ if (cargar == 3) {
         elementoContenedor25.appendChild(agregaProducto25);
         
         
-        /* 16 */
+        /* 26 */
         
         const agregaProducto26 = document.createElement('div');
         
         agregaProducto26.innerHTML = ` <div class="item">
         <div class="titulo-item"> Killka - Chardonnay  </div>
-        <div class="box-imagen"> <img src="/imagenes/26.png" alt="" class="img-item"> </div>
+        <div class="box-imagen"> <img src="./imagenes/26.png" alt="" class="img-item"> </div>
         <div class="precio-item"> $5.220    </div>
         <button class="boton-item">Agregar al Carrito</button>
         </div>` ;
@@ -442,7 +442,7 @@ if (cargar == 3) {
         
         agregaProducto27.innerHTML = ` <div class="item">
         <div class="titulo-item"> Develado - Chardonnay Sauvignon Blanc </div>
-        <div class="box-imagen"> <img src="/imagenes/27.png" alt="" class="img-item"> </div>
+        <div class="box-imagen"> <img src="./imagenes/27.png" alt="" class="img-item"> </div>
         <div class="precio-item"> $8.500     </div>
         <button class="boton-item">Agregar al Carrito</button>
         </div>`;
@@ -458,7 +458,7 @@ if (cargar == 3) {
         
         agregaProducto28.innerHTML = ` <div class="item">
         <div class="titulo-item"> Perro Callejero - Chardonnay  </div>
-        <div class="box-imagen"> <img src="/imagenes/28.png" alt="" class="img-item"> </div>
+        <div class="box-imagen"> <img src="./imagenes/28.png" alt="" class="img-item"> </div>
         <div class="precio-item"> $6.240   </div>
         <button class="boton-item">Agregar al Carrito</button>
         </div>` ;
@@ -474,7 +474,7 @@ if (cargar == 3) {
         
         agregaProducto29.innerHTML =  ` <div class="item">
         <div class="titulo-item"> La Linda Sweet Viognier  </div>
-        <div class="box-imagen"> <img src="/imagenes/29.png" alt="" class="img-item"> </div>
+        <div class="box-imagen"> <img src="./imagenes/29.png" alt="" class="img-item"> </div>
         <div class="precio-item"> $6.200   </div>
         <button class="boton-item">Agregar al Carrito</button>
         </div> ` ;
@@ -490,7 +490,7 @@ if (cargar == 3) {
         
         agregaProducto30.innerHTML =  ` <div class="item">
         <div class="titulo-item"> Emilia Dulce Natural Moscatel </div>
-        <div class="box-imagen"> <img src="/imagenes/30.png" alt="" class="img-item"> </div>
+        <div class="box-imagen"> <img src="./imagenes/30.png" alt="" class="img-item"> </div>
         <div class="precio-item"> $3.990    </div>
         <button class="boton-item">Agregar al Carrito</button>
         </div>`;
