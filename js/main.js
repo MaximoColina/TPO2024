@@ -174,7 +174,7 @@ elementoContenedor10.appendChild(agregaProducto10);
 } 
 
 
-if (cargar == 1) {
+if (cargar == 2) {
 
     /* 11 */
     
@@ -338,7 +338,7 @@ if (cargar == 1) {
 }
 
 
-if (cargar == 1) {
+if (cargar == 3) {
 
         /* 21 */
         
