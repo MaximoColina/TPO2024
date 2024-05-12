@@ -6,7 +6,7 @@ del 29 al 30 dulce
 
 
 ************************************************************
-1 Mosquita Muerta - Perro Callejero Malbec $6.240
+1 Perro Callejero Malbec $6.240
 Información: 
 
 Zonas:
@@ -168,7 +168,7 @@ Potencial de guarda: 8 Años
 
 
 ************************************************************
-11 Latitud 33 Malbec $4.240 
+11 Latitud 33 - Malbec $4.240 
 Información:
 
 Color: Rojo rubí con reflejos azulados.
@@ -253,7 +253,7 @@ pH: 3.73
 
 
 ************************************************************
-15 Altos del Plata Malbec $4.495 
+15 Altos del Plata - Malbec $4.495 
 Información:
 
 Color: Rojo intenso y vívido, con brillantes tintes violáceos.
@@ -288,7 +288,7 @@ firmes. Largo final.
 
 
 ************************************************************
-17 Rutini Malbec $19.990 
+17 Rutini - Malbec $19.990 
 Información:
 
 Rojo violáceo, muy intenso. Frutos rojos (cereza, grosella) y una 
@@ -400,7 +400,7 @@ acidez equilibrada.
 
 
 ************************************************************
-24 Cordero Con Piel De Lobo Chardonnay $4.360 
+24 Cordero Con Piel De Lobo - Chardonnay $4.360 
 Información:
 
 Composición Varietal: 100% Chardonnay
@@ -430,7 +430,7 @@ en tanques de acero inoxidables.
 
 
 ************************************************************
-25 Salentein Reserva Chardonnay $7.390
+25 Salentein Reserva - Chardonnay $7.390
 Información:
 
 Su color es muy intenso y de matiz verdoso dominante.
@@ -449,7 +449,7 @@ con comidas.
 
 
 ************************************************************
-26 Killka Chardonnay $5.220 
+26 Killka - Chardonnay $5.220 
 Información:
 
 De color amarillo verdoso con reflejos dorados, presenta aromas 
@@ -472,7 +472,7 @@ Refrescante acidez. Aterciopelado con largo final en boca.
 
 
 ************************************************************
-28 Perro Callejero Chardonnay $6.240
+28 Perro Callejero - Chardonnay $6.240
 Información:
 
 100% Chardonnay
