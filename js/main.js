@@ -10,7 +10,7 @@ Para probar están activadas todas las cards, en 1!
 */
 let cargar = 1;
 
-if (cargar == 1) {
+if (cargar == 2) {
 
 /* 1 */
 
