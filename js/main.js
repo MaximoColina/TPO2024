@@ -503,7 +503,58 @@ if (cargar == 1) {
 
 
 
+        /* Validación del email */
+        const email = document.querySelector("#email"); 
+        let validarEmail = /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/; 
+        email.addEventListener('change', (event) =>{
+            console.log(event.target.value);
+            if (validarEmail.test(event.target.value)){
+                /*alert("el email es valido");*/ 
+                event.target.style.borderColor = 'green';
+                event.target.style.color = 'green'; 
+                event.target.style.border = '2px solid';    
+            }else{
+                /*alert("el email no es valido");*/
+                event.target.style.borderColor = 'red'; 
+                event.target.style.color = 'red'; 
+                event.target.style.border = '2px solid';  
+            }
+        })
+        /* Validación del nombre y apellido */
+        const name = document.querySelector("#name");
+        const lastname = document.querySelector("#lastname"); 
+   
+        let validarText = /^([A-Za-zÑñÁáÉéÍíÓóÚú]+['\-]{0,1}[A-Za-zÑñÁáÉéÍíÓóÚú]+)(\s+([A-Za-zÑñÁáÉéÍíÓóÚú]+['\-]{0,1}[A-Za-zÑñÁáÉéÍíÓóÚú]+))*$/;  
 
+        name.addEventListener('change', (event) =>{
+            console.log(event.target.value);
+            if (validarText.test(event.target.value)){
+                /*alert("el email es valido");*/ 
+                event.target.style.borderColor = 'green';
+                event.target.style.color = 'green'; 
+                event.target.style.border = '2px solid';    
+            }else{
+                /*alert("el email no es valido");*/
+                event.target.style.borderColor = 'red'; 
+                event.target.style.color = 'red'; 
+                event.target.style.border = '2px solid';  
+            }
+        })
+
+        lastname.addEventListener('change', (event) =>{
+            console.log(event.target.value);
+            if (validarText.test(event.target.value)){
+                /*alert("el email es valido");*/ 
+                event.target.style.borderColor = 'green';
+                event.target.style.color = 'green'; 
+                event.target.style.border = '2px solid';    
+            }else{
+                /*alert("el email no es valido");*/
+                event.target.style.borderColor = 'red'; 
+                event.target.style.color = 'red'; 
+                event.target.style.border = '2px solid';  
+            }
+        })
 
 
 
