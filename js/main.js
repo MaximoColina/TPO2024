@@ -524,7 +524,7 @@ const derecha = document.querySelector("#der");
 const imagenes = [
   "bodegon1.jpg",
   "bodegon2.jpg",
-  "bodegon3.jpg",
+  "bodegon3.png",
   "bodegon4.jpg",
   "bodegon5.webp",
 ];
