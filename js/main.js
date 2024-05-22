@@ -524,7 +524,7 @@ const derecha = document.querySelector("#der");
 const imagenes = [
   "bodegon1.jpg",
   "bodegon2.jpg",
-  "bodegon3.png",
+  "bodegon3.jpg",
   "bodegon4.jpg",
   "bodegon5.webp",
 ];
@@ -536,7 +536,7 @@ let index = indexM / 2;
 const imageContainer = document.getElementById("container-image");
 const imgElement = document.createElement("img");
 
-imgElement.src = "../imagenes/" + imagenes[index];
+imgElement.src = "./imagenes/" + imagenes[index];
 imgElement.alt = "imagenes de Bodegones";
 imageContainer.appendChild(imgElement);
 
@@ -547,7 +547,7 @@ izquierda.addEventListener("click", () => {
   if (index <= 0) {
     index = indexM;
   }
-  imgElement.src = "../imagenes/" + imagenes[indexIzq];
+  imgElement.src = "./imagenes/" + imagenes[indexIzq];
   imgElement.alt = "imagenes de Bodegones";
   imageContainer.appendChild(imgElement);
 });
@@ -558,7 +558,7 @@ derecha.addEventListener("click", () => {
   if (index >= indexM) {
     index = 0;
   }
-  imgElement.src = "../imagenes/" + imagenes[indexDer];
+  imgElement.src = "./imagenes/" + imagenes[indexDer];
   imgElement.alt = "imagenes de Bodegones";
   imageContainer.appendChild(imgElement);
 });
