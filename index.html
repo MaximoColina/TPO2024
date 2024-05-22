@@ -27,19 +27,33 @@
                     shopping_cart
                 </span>     
             </a>
-            <span class="precio">$0.0</span>
+            <span class="menu-precio">$0.0</span>
             <a>
                 <span class="material-symbols-outlined">
                     menu
                 </span>
             </a>
         </div>
-
     </nav>
+
     <main>
         <!-- CONTENIDO PRINCIPAL DE LA PAGINA -->   
         <section id="galeria" >
-
+            <div class="info-vinos">
+                <button id="izq">
+                    <span class="material-symbols-outlined">
+                        arrow_back_ios
+                    </span>
+                </button>
+                <div id="container-image">
+                    <!--Se muestra las imagenes del script -->
+                </div>
+                <button id="der">
+                    <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                    </span>
+                </button>
+            </div>
         </section>
     
         <section id="tienda" class="pre-contenedor">
@@ -66,45 +80,71 @@
 
         </section>
 
+        <!--Sección formulario-->
         <section id="formulario">
+            
             <form action="#" method="post" enctype="multipart/form-data">
                 <div>
                     <label for="name">Nombre</label>
                     <label for="lastname">Apellido</label>
 
-                    <input type="text" name="name" id="name" placeholder="Nombre" required />
-                    <input type="text" name="lastname" id="lastname" placeholder="Apellido" required />
+                    <input type="text" name="name" id="name" placeholder="Nombre" required >
+                    <input type="text" name="lastname" id="lastname" placeholder="Apellido" required >
                 </div>
                 
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email" placeholder="ejemplo@ejemplo.com">
                 <div>
-                    <label for="sexo">Sexo</label>
+                    <label>Sexo</label>
                     <label for="location">Provincia</label>
 
                     <p>
-                        Masculino <input type="radio" name="sexo" value="masculino">
-                        Femenino <input type="radio" name="sexo" value="femenino">
+                        Masculino <input type="radio" name="sexo"  value="masculino">
+                        Femenino <input type="radio" name="sexo"  value="femenino">
                     </p>
 
-                    <select name="location" id="" required>
-                        <option value="chaco">Chaco</option>
-                        <option value="formosa">Formosa</option>
-                        <option value="corrientes">Corrientes</option>
+                    <select name="location" id="location" size="1" required>
+                        <option value="">Elige una provincia</option>
+                        <option value="Buenos Aires">Buenos Aires</option>
+                        <option value="Córdoba">Córdoba</option>
+                        <option value="Santa Fe">Santa Fe</option>
+                        <option value="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
+                        <option value="Mendoza">Mendoza</option>
+                        <option value="Tucumán">Tucumán</option>
+                        <option value="Entre Ríos">Entre Ríos</option>
+                        <option value="Salta">Salta</option>
+                        <option value="Misiones">Misiones</option>
+                        <option value="Chaco">Chaco</option>
+                        <option value="Corrientes">Corrientes</option>
+                        <option value="Santiago del Estero">Santiago del Estero</option>
+                        <option value="San Juan">San Juan</option>
+                        <option value="Jujuy">Jujuy</option>
+                        <option value="Río Negro">Río Negro</option>
+                        <option value="Neuquén">Neuquén</option>
+                        <option value="Formosa">Formosa</option>
+                        <option value="Chubut">Chubut</option>
+                        <option value="San Luís">San Luís</option>
+                        <option value="Catamarca">Catamarca</option>
+                        <option value="La Rioja">La Rioja</option>
+                        <option value="La Pampa">La Pampa</option>
+                        <option value="Santa Cruz">Santa Cruz</option>
+                        <option value="Tierra del Fuego">Tierra del Fuego</option>
                     </select>
                 </div>               
 
                 <label for="img">Imagen</label>
-                <input type="file" name="img" />
+                <input type="file" name="img" id="img" >
 
                 <label for="coment">Comentario</label>
-                <textarea name="coment" id="" placeholder="Ingrese un comentario ..." required></textarea>
+                <textarea name="coment" id="coment" placeholder="Ingrese un comentario ..." required></textarea>
                 
-                <input type="submit" value="Enviar" />
+                <input type="submit" value="Enviar" >
 
             </form>
         </section>
+        
     </main> 
+
     <footer id="contacto">
         <div class="footer-marco">
             <h2 class="footer-texto-titulo">CONTACTO</h2>
