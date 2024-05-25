@@ -63,8 +63,8 @@ nav .menu-right {
     align-items: center;
 }
 
-.precio {
-    font-size: 20px;
+.menu-precio {
+    font-size: 18px;
 }
 
 .material-symbols-outlined {
@@ -88,6 +88,7 @@ main section {
     background-size: cover;
     height: 100vh;
 }
+
 
 /* ESTILOS DE LA TIENDA */
 .contenedor {
