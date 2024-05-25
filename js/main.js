@@ -6,6 +6,8 @@
 Para probar están activadas todas las cards, en 1!
 
 */
+
+var cont = 0; // Contador para los productos del carro;
 let cargar = 1;
 
 if (cargar == 1) {
@@ -465,6 +467,7 @@ if (cargar == 1) {
 }
 
 /* Validación del email */
+
 const email = document.querySelector("#email");
 let validarEmail = /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
 email.addEventListener("change", (event) => {
@@ -517,6 +520,8 @@ lastname.addEventListener("change", (event) => {
     event.target.style.border = "2px solid";
   }
 });
+
+/* Galeria */
 
 const izquierda = document.querySelector("#izq");
 const derecha = document.querySelector("#der");
@@ -621,7 +626,12 @@ function pagarClicked() {
     carritoItems.removeChild(carritoItems.firstChild);
   }
   actualizarTotalCarrito();
+  actualizarTotalCarritoMenu();
   ocultarCarrito();
+  cont = 0; // reseteamos el contador para, dejarlo a cero cuando pagamos.
+  /* actualizamos la cantidad de producto dentro del carrito */
+  document.getElementsByClassName("productos-carrito")[0].innerText =
+    cont.toLocaleString("es");
 }
 
 /* Funciòn que controla el boton clickeado de agregar al carrito */
@@ -631,11 +641,10 @@ function agregarAlCarritoClicked(event) {
   var titulo = item.getElementsByClassName("titulo-item")[0].innerText;
   var precio = item.getElementsByClassName("precio-item")[0].innerText;
   var imagenSrc = item.getElementsByClassName("img-item")[0].src;
-  console.log(imagenSrc);
 
   agregarItemAlCarrito(titulo, precio, imagenSrc);
 
-  hacerVisibleCarrito();
+  /*hacerVisibleCarrito();  una vez agregado al carro superior hay que eleminarlo */
 }
 
 /* Funcion que hace visible el carrito */
@@ -645,8 +654,8 @@ function hacerVisibleCarrito() {
   carrito.style.marginRight = "0";
   carrito.style.opacity = "1";
 
-  var items = document.getElementsByClassName("contenedor")[0];
-  items.style.width = "60%";
+  //var items =document.getElementsByClassName('contenedor')[0];
+  //items.style.width = '60%'; // Deshabilitamos para que no mueva la tienda;
 }
 
 /* Funciòn que agrega un item al carrito */
@@ -665,6 +674,11 @@ function agregarItemAlCarrito(titulo, precio, imagenSrc) {
       return;
     }
   }
+  // solo se suma si no existen duplicados de productos;
+  cont++;
+  /* Agregamos la cantidad de producto dentro del carrito */
+  document.getElementsByClassName("productos-carrito")[0].innerText =
+    cont.toLocaleString("es");
 
   var itemCarritoContenido = `
         <div class="carrito-item">
@@ -691,7 +705,7 @@ function agregarItemAlCarrito(titulo, precio, imagenSrc) {
     .getElementsByClassName("btn-eliminar")[0]
     .addEventListener("click", eliminarItemCarrito);
 
-  /* Agregmos al funcionalidad restar cantidad del nuevo item*/
+  /* Agregmos la funcionalidad restar cantidad del nuevo item*/
   var botonRestarCantidad = item.getElementsByClassName("restar-cantidad")[0];
   botonRestarCantidad.addEventListener("click", restarCantidad);
 
@@ -701,6 +715,7 @@ function agregarItemAlCarrito(titulo, precio, imagenSrc) {
 
   /* Actualizamos total */
   actualizarTotalCarrito();
+  actualizarTotalCarritoMenu();
 }
 
 /* Aumento en uno la cantidad del elemento seleccionado */
@@ -717,6 +732,7 @@ function sumarCantidad(event) {
   selector.getElementsByClassName("carrito-item-cantidad")[0].value =
     cantidadActual;
   actualizarTotalCarrito();
+  actualizarTotalCarritoMenu();
 }
 
 /* Resto en uno la cantidad del elemento seleccionado */
@@ -734,6 +750,7 @@ function restarCantidad(event) {
     selector.getElementsByClassName("carrito-item-cantidad")[0].value =
       cantidadActual;
     actualizarTotalCarrito();
+    actualizarTotalCarritoMenu();
   }
 }
 
@@ -741,26 +758,38 @@ function restarCantidad(event) {
 function eliminarItemCarrito(event) {
   var buttonClicked = event.target;
   buttonClicked.parentElement.parentElement.remove();
+
+  cont--; // contador que nos permite mantener el numero de productos en el nav del carrito;
+  /* actualizamos la cantidad de producto dentro del carrito */
+  document.getElementsByClassName("productos-carrito")[0].innerText =
+    cont.toLocaleString("es");
   /* Actualizamos el total del carrito */
   actualizarTotalCarrito();
+  actualizarTotalCarritoMenu();
+
+  if (cont == 0) {
+    ocultarCarrito();
+  }
 
   /* la siguiente funciòn controla si hay elementos en el carrito
     Si no hay elimino el carrito */
-  ocultarCarrito();
+  //ocultarCarrito(); // quita la fución para que no elimine la vista.
 }
 
 /* Funciòn que controla si hay elementos en el carrito. Si no hay oculto el carrito. */
 function ocultarCarrito() {
   var carritoItems = document.getElementsByClassName("carrito-items")[0];
-  if (carritoItems.childElementCount == 0) {
-    var carrito = document.getElementsByClassName("carrito")[0];
-    carrito.style.marginRight = "-100%";
-    carrito.style.opacity = "0";
-    carritoVisible = false;
+  /*if(carritoItems.childElementCount==0){*/
+  // se elimina el if para que se muestre el carro cuando se haga click sobre él;
+  var carrito = document.getElementsByClassName("carrito")[0];
+  carrito.style.marginRight = "-100%";
+  carrito.style.opacity = "0";
+  carritoVisible = false;
 
-    var items = document.getElementsByClassName("contenedor")[0];
-    items.style.width = "100%";
-  }
+  //var items =document.getElementsByClassName('contenedor')[0];
+  //items.style.width = '100%'; // Deshabilitamos porque no se utiliza;
+
+  carritoVisible = false;
 }
 
 /* Actualizamos el total de Carrito */
@@ -787,3 +816,43 @@ function actualizarTotalCarrito() {
   document.getElementsByClassName("carrito-precio-total")[0].innerText =
     "$" + total.toLocaleString("es");
 }
+
+/* Actualizamos el total de Carrito Menu */
+function actualizarTotalCarritoMenu() {
+  /* seleccionamos el contenedor carrito */
+  var carritoContenedor = document.getElementsByClassName("carrito")[0];
+  var carritoItems = carritoContenedor.getElementsByClassName("carrito-item");
+  var total = 0;
+  /* recorremos cada elemento del carrito para actualizar el total */
+  for (var i = 0; i < carritoItems.length; i++) {
+    var item = carritoItems[i];
+    var precioElemento = item.getElementsByClassName("carrito-item-precio")[0];
+    /* quitamos el simobolo peso y el punto de milesimos. */
+    var precio = parseFloat(
+      precioElemento.innerText.replace("$", "").replace(".", "")
+    ); //replace('$','').replace('.',''))
+    var cantidadItem = item.getElementsByClassName("carrito-item-cantidad")[0];
+    console.log(precio);
+    var cantidad = cantidadItem.value;
+    total = total + precio * cantidad;
+  }
+  total = Math.round(total * 100) / 100;
+
+  document.getElementsByClassName("menu-precio")[0].innerText =
+    "$" + total.toLocaleString("es");
+}
+
+/* Capturar el elemento del carro y al hacer click agregar el html */
+
+const menuCarrito = document.querySelector("#tu-carrito");
+
+menuCarrito.addEventListener("click", () => {
+  console.log("clickeado ");
+  if (carritoVisible == false && cont != 0) {
+    hacerVisibleCarrito();
+    carritoVisible = true;
+  } else {
+    ocultarCarrito();
+  }
+  console.log(carritoVisible);
+});
