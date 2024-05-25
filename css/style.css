@@ -75,6 +75,10 @@ nav .menu-right {
         'opsz' 24
 }
 
+.material-symbols-outlined:hover{
+    scale: 1.5;
+}
+
 /* FIN DEL ESTILO DEL NAV */
 /* ESTILOS GENERALLES DEL MAIN */
 main {
@@ -239,7 +243,7 @@ input[type="submit"] {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 50vh;
+    height: 25vh;
 }
 
 .footer-texto-titulo {
