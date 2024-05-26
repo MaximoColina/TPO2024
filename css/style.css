@@ -75,9 +75,10 @@ nav .menu-right {
         'opsz' 24
 }
 
-.material-symbols-outlined:hover{
+.material-symbols-outlined:hover {
     scale: 1.5;
 }
+
 
 /* FIN DEL ESTILO DEL NAV */
 /* ESTILOS GENERALLES DEL MAIN */
@@ -93,6 +94,9 @@ main section {
     height: 100vh;
 }
 
+.subtitulo {
+    display: none;
+}
 
 /* ESTILOS DE LA TIENDA */
 .contenedor {
