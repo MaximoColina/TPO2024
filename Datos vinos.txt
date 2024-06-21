@@ -1,12 +1,12 @@
 
-del 1 al 20 tinto Malbec
-del 21 al 28 blanco Chardonnay 
-del 29 al 30 dulce
+del 1 al 20 Tinto Malbec
+del 21 al 28 Blanco Chardonnay 
+del 29 al 30 Dulce
 
 
 
 ************************************************************
-1 Perro Callejero Malbec $6.240
+1 Perro Callejero - Malbec $6.240
 Información: 
 
 Zonas:
@@ -30,7 +30,7 @@ redondo y de final largo.
 
 
 ************************************************************
-3 Santa Julia Malbec $2.850 
+3 Santa Julia - Malbec $2.850 
 Información: 
 
 Expresan la tipicidad de cada variedad provenientes de las diferentes 
@@ -125,7 +125,7 @@ Enólogo: Mariano Di Paola.
 
 
 ************************************************************
-8 Salentein - Reserva Malbec $7.390 
+8 Salentein - Malbec $7.390 
 Información:
  
 A la vista presenta color rojo/violeta de alta intensidad.
@@ -134,7 +134,7 @@ En nariz se percibe fresco, intenso y complejo, se destacan
 aromas a frutos rojos, bayas negras, delicadas notas florales.
 
 En la boca presenta entrada dulce y suave, es fresco, frutado y 
-de buena intensidad, amplio en la media boca y largo final
+de buena intensidad, amplio en la media boca y largo final.
 
 
 
@@ -196,14 +196,6 @@ La amplitud térmica propia de la altura confiere gran
 concentración de frutas y taninos con notas de frutos rojos, 
 chocolate y menta.
 
-Origen: I.G. Valle de Chañarmuyo, La Rioja. Altura: 1700 msnm. 
-Año de plantación: 1998.
-
-Viñedo: Los suelos de la Finca San Gabriel son suelos 
-arcillo-arenosos, pedregosos profundos. Aguas de deshielo del 
-Famatina, acumuladas en el Dique Chañarmuyo, riego por sistema 
-de goteo.
-
 Elaboración del vino: Cosecha a mano, e inmediatamente las uvas 
 son enfriadas para fijar los compuestos aromáticos y los 
 compuestos responsables del color. Los racimos pasan por un 
@@ -211,7 +203,6 @@ doble proceso de selección cualitativa (racimos y bayas) y
 luego maceración previa en frio de dos a tres días. Sin 
 clarificado ni filtrado.
 
-Rendimiento: 1,1 botellas por planta.
 
 
 
@@ -333,7 +324,7 @@ CRIANZA / BARRICADO: 65% Roble Francés - 35% Roble Americano
 
 
 ************************************************************
-19 Luigi Bosca De Sangre Malbec Valle de Uco $14.950 
+19 Luigi Bosca De Sangre Malbec $14.950 
 Información:
 
 Color rojo granate brillante, con aromas a frutas negras y 
@@ -350,7 +341,7 @@ Final largo y complejo.
 
 
 ************************************************************
-20 Emilia Dulce Natural Malbec Rosé $3.990 
+20 Emilia Natural Malbec Rosé $3.990 
 Información:
 
 De color rosa tenue que recuerda a los pétalos de rosa estilo 
@@ -414,14 +405,6 @@ grado alcohólico.
 Para beber sólo o acompañado de quesos. Un vino fresco que 
 expresa la tipicidad varietal y elegancia.
 
-Origen: I.G. Valle de Chañarmuyo, La Rioja. Altura: 1700 msnm. 
-Año de plantación: 1998.
-
-Viñedo: Los suelos de la Finca San Gabriel son suelos 
-arcillo-arenosos, pedregosos profundos. Aguas de deshielo del 
-Famatina, acumuladas en el Dique Chañarmuyo, riego por 
-sistema de goteo.
-
 Elaboración del vino: Cosecha a mano, e inmediatamente las 
 uvas son prensadas para mantener la frescura, tipicidad 
 varietal y acidez natural, para luego pasar a fermentación 
@@ -461,7 +444,7 @@ cítrico mineral.
 
 
 ************************************************************
-27 Solo Contigo - Develado - Chardonnay Sauvignon Blanc $8.500 
+27 Solo Contigo - Develado - Chardonnay $8.500 
 Información:
 
 De color amarillo verdoso con reflejos plateados, aromas a 

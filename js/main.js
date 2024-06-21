@@ -121,7 +121,7 @@ if (cargar == 1) {
   const agregaProducto8 = document.createElement("div");
 
   agregaProducto8.innerHTML = `<div class="item">
-<div class="titulo-item"> Salentein - Reserva Malbec  </div>
+<div class="titulo-item"> Salentein - Malbec  </div>
 <div class="box-imagen"> <img src="./imagenes/8.png" alt="imagen vino" class="img-item"> </div>
 <div class="precio-item"> $7.390 </div>
 <button class="boton-item">Agregar al Carrito</button>
@@ -288,7 +288,7 @@ if (cargar == 1) {
   const agregaProducto19 = document.createElement("div");
 
   agregaProducto19.innerHTML = `<div class="item">
-    <div class="titulo-item"> Luigi Bosca De Sangre Malbec Valle de Uco  </div>
+    <div class="titulo-item"> Luigi Bosca De Sangre Malbec  </div>
     <div class="box-imagen"> <img src="./imagenes/19.png" alt="imagen vino" class="img-item"> </div>
     <div class="precio-item"> $14.950    </div>
     <button class="boton-item">Agregar al Carrito</button>
@@ -303,7 +303,7 @@ if (cargar == 1) {
   const agregaProducto20 = document.createElement("div");
 
   agregaProducto20.innerHTML = ` <div class="item">
-    <div class="titulo-item"> Emilia Dulce Natural Malbec Rosé  </div>
+    <div class="titulo-item"> Emilia Natural Malbec Rosé  </div>
     <div class="box-imagen"> <img src="./imagenes/20.png" alt="imagen vino" class="img-item"> </div>
     <div class="precio-item"> $3.990    </div>
     <button class="boton-item">Agregar al Carrito</button>
